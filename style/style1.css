@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'zag_regularregular';
+    src: url('9950.woff2') format('woff2'),
+         url('9950.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	background-color: #f9f9f9;
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	
+	 font-family: zag_regularregular, Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+
+  
+ul{
+   list-style-type: none;
+}
+
+
+
+.wrapper{
+    background-color: #FFFFFF;
+    width: 1060px;
+	height: 100%;
+	margin:0 auto;
+	max-width: 90%; /* контейнер не превышает 90% ширины экрана */
+    min-width: 50%;
+    margin:0 auto;
+	padding: 0 48px 0 48px;
+	box-shadow: 0 0 5px;	
+}
+.logo{
+   width: 1060px;
+   height: 130px;
+   background-color: #FFFFFF;
+   
+}
+#logo1{
+  width: 144px;
+  height: 40px;
+  padding-left: 2px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+
+
+.menu-menu-menu{
+  float:left;
+	color: #ffffff;
+    font-size: 14px;
+	width: 1060px;
+  
+  overflow: hidden;
+   width: 1060px;
+  height: 40px;
+  
+  margin: 0 auto;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5d5d5d+0,5d5d5d+0,5d5d5d+3,464545+100 */
+background: #5d5d5d; /* Old browsers */
+background: -moz-linear-gradient(top,  #5d5d5d 0%, #5d5d5d 0%, #5d5d5d 3%, #464545 100%); /* FF3.6-15 */
+background: linear-gradient(to bottom,  #5d5d5d 0%,#5d5d5d 0%,#5d5d5d 3%,#464545 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+/* центрирование по горизонтали */
+ul{
+  list-style:none; 
+  text-align:center; 
+}
+li{
+   display:inline; 
+   text-align:center; 
+   
+}
+
+.menu-menu-menu li{
+  float: left;
+  display:inline; 
+   
+  
+}
+.menu-menu-menu li a{
+
+  color:#FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block ;
+  width: 120px;
+  text-decoration: none;
+  
+}
+.menu-menu-menu li a:hover{
+   background-color:#323232;
+   text-decoration: none;
+   border-right: 1px solid #c8c8c8;
+   
+}
+.navigator{
+ height: 400px;
+ width: 240px;
+ float:left;
+}
+
+.menu-slider-menu-menu{
+  
+    font-size: 14px;
+    padding-right: 48px;
+    padding-top: 40px;
+  
+}
+
+.menu-slider-menu-menu li a{
+   border: 1px solid #c8c8c8;
+border-bottom: none;
+    color: #7a7878;
+    display: block;
+    left: 20px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-top: 8px;
+    text-decoration: none;
+}
+.menu-slider-menu-menu li a:last-child{
+   border-bottom: 1px solid #c8c8c8;
+}
+ .menu-slider-menu-menu a:hover {
+padding-left: 10px;
+ color: #0d0d0d;
+ background-color: #f9f9f9;
+ }
+
+ /*Для борьбы с промежутками можно использовать несколько техник. Удаление пробелов в списках:*/
+nav a {
+  display: inline-block;
+  margin-right: -4px;
+}
+.tovar{
+   width: 800px;
+   height: 400px;
+   float: right;
+   overflow: hidden;
+   border-top: 1px solid #c8c8c8;
+   border-left: 1px solid #c8c8c8;
+   border-bottom: 1px solid #c8c8c8;
+   border-right: 1px solid #c8c8c8;
+   margin-top: 40px;
+   text-align:center; 
+    padding-top: 40px;
+}
+
+
+#velic img {
+   vertical-align: middle;
+}
+.description{
+   width: 1060px;
+   height: 240px;  
+   overflow: hidden;   
+}
+
+.description-text{
+   width: 726px;
+   height: 240px;
+   float: right;
+   color: #7a7878;
+   margin-left: 24px;
+   margin-top: 40px;
+   margin-right: 73px;
+   margin-bottom: 60px;
+}
+
+.description-text p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-second{
+  width: 1060px;
+  height: 40px;
+  overflow: hidden;
+  width: 966px;
+   height: 40px;
+   background-color: #e1e1e1;
+   padding-left: 46px;
+   padding-right: 48px ;
+   margin: 0 auto;
+   float:left;
+  font-size: 13px;
+}
+
+
+.menu-menu-menu-second li{
+  float: left;
+}
+.menu-menu-menu-second li a{
+  color: #404040;   
+  padding-top: 15px;
+  padding-bottom: 10px;
+  display: block ;
+  width: 120px;
+  text-decoration: none;
+}
+.menu-menu-menu-second li a:hover{
+  text-decoration: underline;
+}
+.text-second{
+   float: right;
+   font-size: 13px;                            
+   padding-top:10px;
+   
+   color: #474747;
+   
+}
+.footer{
+   width: 1060px;
+   height: 60px;
+   background-color: #ffffff;
+  
+   
+}
